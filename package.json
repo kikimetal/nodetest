@@ -1,0 +1,20 @@
+{
+  "name": "nodetest",
+  "version": "2.0.0",
+  "description": "初めてのnodeJS!!",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2"
+  },
+  "scripts": {
+    "build": "babel --compact=true src --out-file dest/all.js"
+  },
+  "author": "kiki",
+  "license": "ISC"
+}
